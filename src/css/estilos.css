@@ -4,6 +4,9 @@ html {
     background-color: var(--violeta);
     font-family: 'Poppins', sans-serif;
     background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
 }
 
 /*header*/
@@ -11,17 +14,16 @@ html {
 .header {
     display: flex;
     margin-left: 5rem ;
+    margin-top: 35px;
     height: 7rem;
 }
 
 /*main*/
 .main {
     display: flex;
-    height: 60vh;
+    height: 75vh;
     align-items: center;
     margin-left: 5.3rem;
-    max-width: 1318px;
-    max-height: 800px;
 }
 
 .main .ilustration {
@@ -31,20 +33,78 @@ html {
 }
 
 .content {
+    margin-top: 14rem;
     margin-left: 7rem;
+    margin-bottom: 195px;
     color: #fff;
     display: flex;
     flex-direction: column;
-    }
-
-.content h2{
-    text-align: left;
-    font-size: 4.5rem;
-    font-weight: 600;
-    margin-bottom: 20rem; 
-    width: 500px;
-
 }
 
+.content .title{
+    letter-spacing: 1;
+    font-size: 5.3rem;
+    font-weight: 600;
+    margin-bottom: 5rem;
+    margin-top: 11rem;
+}
 
+.description {
+    font-size: 20px;
+    font-weight: 200;  
+    margin-bottom: 7rem;
+    width: 65rem; 
+}
+
+.content .btn {
+    width: 26.7rem;
+    height: 7.5rem;
+    border-radius: 100px;
+    color: var(--violeta);
+    font-size: 2.5rem;
+    font-weight: 200;
+    border: none;
+    box-shadow: 1px 10px 5px #5e2c75;
+    margin-bottom: 2rem;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.content .btn:hover {
+    background-color: var(--soft-magenta);
+    color: #fff;
+}
 /*footer*/
+
+.footer {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 5rem;
+    margin-top: 5rem;
+}
+
+.social-media {
+    display: flex;
+    justify-content: space-between;
+    width: 20rem;
+}
+
+.social-media i {
+    padding: 6px;
+}
+
+.social-media a {
+    color: #fff;
+    font-size: 2rem;
+    transition: 0.3s;
+    border: 1px  solid #fff;
+    border-radius: 50%;
+    margin: 5px;
+    padding: 9px;
+}
+
+.social-media a:hover {
+    color: var(--soft-magenta);
+    border: 1px solid var(--soft-magenta);
+}
+
