@@ -1,0 +1,103 @@
+@media (min-width: 2560px) {   
+    .footer{
+        display: flex;
+        margin-right: 55rem;
+    }
+
+}
+
+@media (max-width: 1024px) {
+    .main{
+        flex-direction: column;
+    }
+
+    .main .ilustration img{
+        width: 900px;
+    }
+    .main .content {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        margin-top: 5rem;
+        margin-right: 15rem;
+    }
+    .footer{
+        margin-top: 80rem;
+        margin-right: 42%;
+    }
+}
+
+@media (max-width: 768px) {
+    .main .ilustration img{
+        background: url(../images/bg-mobile.svg) no-repeat center center/cover;
+        width: 750px;
+        margin-left: 7.2rem;
+    }
+    .main .content {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        margin-top: 5rem;
+        margin-right: 15rem;
+    }
+    .footer{
+        margin-top: 80rem;
+        margin-right: 38%;
+    }
+}
+
+@media (max-width: 425px){
+    .main .ilustration img{
+        background: url(../images/bg-mobile.svg) no-repeat center center/cover;
+        width: 575px;
+        margin-left: 27%;
+    }
+    .main .content {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        margin-top: 5rem;
+        margin-LEFT: 25rem;
+    }
+
+    .main .content .title{
+        margin-bottom: 5rem;
+        font-size: 4.5rem;
+    }
+    .description {
+        margin-bottom: 5rem;
+        font-size: 2.5rem;
+        width: 45rem;
+    }
+    
+    .footer{
+        justify-content: space-between;
+        margin-top: 95rem;
+        margin-left: 47%;
+        }
+}
+
+@media (max-width: 320px) {
+    .main .ilustration img{
+        background: url(../images/bg-mobile.svg) no-repeat center center/cover;
+        width: 575px;
+        margin-left: 31%;
+    }
+    .main .content {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        margin-top: 5rem;
+        margin-left: 35rem;
+    }
+
+    .footer{
+        justify-content: space-between;
+        margin-top: 95rem;
+        margin-left: 60%;
+        }
+}
